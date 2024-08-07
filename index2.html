@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高階行銷策略服務選單 - 助力企業快速成長</title>
+    <style>
+        body { font-family: "Microsoft JhengHei", Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        .service-category { margin-bottom: 20px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .service-item { margin-bottom: 10px; }
+        input[type="checkbox"] { margin-right: 10px; }
+        .package { background-color: #f9f9f9; padding: 15px; margin-top: 20px; border-radius: 5px; }
+        #total-cost { font-weight: bold; font-size: 1.2em; margin-top: 20px; margin-bottom: 20px; }
+        #contact-form { margin-top: 30px; }
+        #contact-form input, #contact-form textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+        #contact-form button { padding: 10px 20px; background-color: #2c3e50; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>高階行銷策略服務選單 - 助力企業快速成長</h1>
+    <p>20年頂尖行銷經驗。專精於B2C策略，曾協助多家企業實現顯著成長，最高達成年營收20億台幣。擅長品牌打造及全渠道行銷策略。</p>
+    <p>策略諮詢投資：每小時10,000元 - 釋放您企業的成長潛力</p>
+
+    <form id="service-menu">
+        <div class="service-category">
+            <h2>A) 市場策略優化</h2>
+            <div class="service-item"><input type="checkbox" id="market-analysis" data-cost="300000"> <label for="market-analysis">全面市場分析與策略制定 - 深入分析市場趨勢和消費者行為，制定有效的市場進入或擴張策略。(30小時，300,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="competitive-analysis" data-cost="250000"> <label for="competitive-analysis">競爭優勢分析與定位 - 評估競爭格局，找出獨特優勢，確立市場定位。(25小時，250,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="product-strategy" data-cost="280000"> <label for="product-strategy">產品線優化與創新策略 - 根據市場需求，優化產品組合，發展創新服務模式。(28小時，280,000元）</label></div>
+        </div>
+
+        <div class="service-category">
+            <h2>B) 品牌建立與管理</h2>
+            <div class="service-item"><input type="checkbox" id="brand-identity" data-cost="350000"> <label for="brand-identity">品牌識別與價值提升 - 從視覺識別到品牌故事，全方位提升品牌價值和市場影響力。(35小時，350,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="content-strategy" data-cost="280000"> <label for="content-strategy">內容行銷策略 - 建立品牌權威，提高品牌知名度和客戶忠誠度。(28小時，280,000元）</label></div>
+        </div>
+
+        <div class="service-category">
+            <h2>C) 全渠道營銷優化</h2>
+            <div class="service-item"><input type="checkbox" id="omnichannel-strategy" data-cost="400000"> <label for="omnichannel-strategy">全渠道整合策略 - 整合線上線下渠道，優化客戶體驗，提高轉化率。(40小時，400,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="digital-marketing" data-cost="350000"> <label for="digital-marketing">數位行銷策略優化 - 整合SEO、SEM、社群媒體等數位渠道，提升線上獲客能力。(35小時，350,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="customer-experience" data-cost="300000"> <label for="customer-experience">客戶體驗優化 - 設計並實施卓越的客戶旅程，提升品牌忠誠度和複購率。(30小時，300,000元）</label></div>
+        </div>
+
+        <div class="service-category">
+            <h2>D) 數據驅動增長策略</h2>
+            <div class="service-item"><input type="checkbox" id="data-analytics" data-cost="380000"> <label for="data-analytics">數據分析體系建立 - 整合各渠道數據，建立分析模型，支持精準決策。(38小時，380,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="conversion-optimization" data-cost="320000"> <label for="conversion-optimization">銷售漏斗優化與增長策略 - 運用A/B測試等方法，持續優化每個階段的轉化率。通過數據分析和快速迭代，找出並專注於對業務增長最關鍵的因素。(32小時，320,000元）</label></div>
+        </div>
+
+        <div class="service-category">
+            <h2>E) 企業發展策略</h2>
+            <div class="service-item"><input type="checkbox" id="market-expansion" data-cost="450000"> <label for="market-expansion">市場擴張策略 - 制定新市場進入策略，評估機會與風險，規劃資源配置。(45小時，450,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="business-model-innovation" data-cost="400000"> <label for="business-model-innovation">商業模式創新 - 探索新的收入來源，優化現有業務模式，提升整體營運效率。(40小時，400,000元）</label></div>
+            <div class="service-item"><input type="checkbox" id="strategic-partnerships" data-cost="350000"> <label for="strategic-partnerships">策略合作夥伴關係建立 - 識別潛在合作夥伴，制定雙贏的合作策略，擴大市場影響力。(35小時，350,000元）</label></div>
+        </div>
+
+        <div class="package">
+            <h2>尊榮整合方案</h2>
+            <div class="service-item"><input type="checkbox" id="growth-acceleration" data-cost="2000000"> <label for="growth-acceleration">「成長加速器」方案 - 為期12個月的深度合作，每月至少40小時的策略指導和執行支持。全面覆蓋品牌建立、市場擴張、銷售成長等核心領域。協助企業在18-24個月內實現顯著業績提升。
+            （總計480小時，2,000,000元，較單獨購買服務節省超過100萬元）
+            <br>方案特色：
+            <br>- 專屬高階策略顧問
+            <br>- 季度策略檢討會，確保執行到位
+            <br>- 靈活運用時數，隨時應對市場變化
+            <br>- 根據達成的業績目標提供額外優惠
+            </label></div>
+        </div>
+    </form>
+
+    <div id="total-cost">總投資金額：0元</div>
+
+    <h2>聯絡表單</h2>
+    <form id="contact-form" action="https://formspree.io/f/xrbzkbvr" method="POST">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">電話號碼：</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="company">公司名稱：</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="message">訊息：</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <input type="hidden" id="selected-services" name="selected-services">
+        <input type="hidden" id="total-investment" name="total-investment">
+
+        <button type="submit">送出</button>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceMenu = document.getElementById('service-menu');
+            const totalCostDisplay = document.getElementById('total-cost');
+            const contactForm = document.getElementById('contact-form');
+            const selectedServicesInput = document.getElementById('selected-services');
+            const totalInvestmentInput = document.getElementById('total-investment');
+
+            let selectedServices = [];
+            let totalCost = 0;
+
+            if (serviceMenu) {
+                serviceMenu.addEventListener('change', function(e) {
+                    if (e.target.type === 'checkbox') {
+                        updateTotalCost();
+                        updateSelectedServices();
+                    }
+                });
+            } else {
+                console.error("Service menu form not found");
+            }
+
+            function updateTotalCost() {
+                totalCost = 0;
+                document.querySelectorAll('#service-menu input[type="checkbox"]:checked').forEach(function(checkbox) {
+                    totalCost += parseInt(checkbox.dataset.cost);
+                });
+                if (totalCostDisplay) {
+                    totalCostDisplay.textContent = '總投資金額：' + totalCost.toLocaleString() + '元';
+                }
+                if (totalInvestmentInput) {
+                    totalInvestmentInput.value = totalCost.toLocaleString() + '元';
+                }
+            }
+
+            function updateSelectedServices() {
+                selectedServices = [];
+                document.querySelectorAll('#service-menu input[type="checkbox"]:checked').forEach(function(checkbox) {
+                    selectedServices.push(checkbox.nextElementSibling.textContent.trim());
+                });
+                if (selectedServicesInput) {
+                    selectedServicesInput.value = selectedServices.join('\n');
+                }
+            }
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    updateSelectedServices();
+                    updateTotalCost();
+                });
+            } else {
+                console.error("Contact form not found");
+            }
+        });
+    </script>
+</body>
+</html>
